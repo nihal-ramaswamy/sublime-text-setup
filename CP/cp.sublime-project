@@ -1,0 +1,19 @@
+{
+    "folders": [
+        {
+            "path": ".",
+            "file_exclude_patterns": [
+                "*.out",
+                "*.sublime-project"
+            ],
+            "file_include_patterns": [
+                "*.*",
+                "in*",
+                "out*"
+            ],
+            "folder_exclude_patterns": [
+                "*.dSYM"
+            ]
+        }
+    ]
+}
