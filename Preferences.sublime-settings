@@ -6,24 +6,13 @@
 	"trim_trailing_white_space_on_save": "all",
 
 	// look and feel
-	"adaptive_dividers": true,
-	"color_scheme": "Monokai.sublime-color-scheme",
 	"font_face": "Hack",
 	"font_size": 14,
 	"line_padding_bottom": 2,
-	"theme": "Adaptive.sublime-theme",
+	"color_scheme": "Monokai.sublime-color-scheme",
 
 	// behaviour
 	"auto_complete_commit_on_tab": true,
-	"drag_text": false,
 	"hardware_acceleration": "opengl",
 	"mini_diff": "auto",
-
-	// status bar
-	"show_encoding": true,
-	"show_line_endings": true,
-	"ignored_packages":
-	[
-		"Vintage",
-	],
 }

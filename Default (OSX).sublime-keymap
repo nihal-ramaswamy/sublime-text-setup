@@ -1,6 +1,0 @@
-[
-    // SidebarEnhancements
-    { "keys": ["ctrl+n"], "command": "side_bar_new_file2" },
-    { "keys": ["ctrl+r"], "command": "side_bar_rename" },
-    { "keys": ["ctrl+f"], "id": "side-bar-find-files", "command": "side_bar_find_files_path_containing", "args": { "paths": [] } },
-]
