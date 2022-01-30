@@ -1,14 +1,11 @@
-#include <bits/stdc++.h>
-using namespace std;
-
 template<typename T>
 concept range_t = std::ranges::range<T>;
 struct debug {
     ~debug() {
-        cerr << endl;
+        std::cerr << std::endl;
     }
     template<class T, class U>
-    debug& operator<<(pair<T, U> x) {
+    debug& operator<<(std::pair<T, U> x) {
         return *this << "(" << x.first << " " << x.second << ")";
     }
     template<range_t T>
@@ -24,7 +21,7 @@ struct debug {
     }
     template<typename T>
     debug& operator<<(T x) {
-        cerr << boolalpha << x;
+        std::cerr << std::boolalpha << x;
         return *this;
     }
 };
