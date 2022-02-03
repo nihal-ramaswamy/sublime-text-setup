@@ -18,18 +18,10 @@
 #include <random>
 #include <set>
 #include <vector>
-#include <ranges>
-#ifdef DEBUG
-    #include "debug.hpp"
-    debug d;
-    #define dbg(...) dmpr(d, __LINE__, ##__VA_ARGS__)
-#else
-    #define dbg(...) 42
-#endif
 using namespace std;
 using ll = long long;
 
-void test_case() {
+void test_case([[maybe_unused]] int& _tt) {
     ${0://code;}
 }
 
@@ -37,8 +29,8 @@ int main() {
     cin.tie(0)->sync_with_stdio(0); // cout << fixed << setprecision(15);
     int TT = 1;
     ${1:cin >> TT;}
-    while (TT--) {
-        test_case();
+    for (int _tt = 1; _tt <= TT; ++_tt) {
+        test_case(_tt);
     }
     return 0;
 }
