@@ -6,7 +6,6 @@
 #include <cassert>
 #include <chrono>
 #include <cmath>
-#include <compare>
 #include <cstring>
 #include <deque>
 #include <functional>
@@ -21,7 +20,7 @@
 using namespace std;
 using ll = long long;
 
-void test_case([[maybe_unused]] int& _tt) {
+void test_case([[maybe_unused]] const int& _tt) {
     ${0://code;}
 }
 
