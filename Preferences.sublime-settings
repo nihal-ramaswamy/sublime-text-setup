@@ -15,4 +15,8 @@
 	"auto_complete_commit_on_tab": true,
 	"hardware_acceleration": "opengl",
 	"mini_diff": "auto",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
 }
