@@ -5,7 +5,7 @@
 	],
 	"installed_packages":
 	[
-		"Dart",
 		"Package Control",
+		"SideBarEnhancements",
 	],
 }

@@ -6,6 +6,7 @@
 	"trim_trailing_white_space_on_save": "all",
 
 	// look and feel
+	"adaptive_dividers": true,
 	"font_face": "Hack",
 	"font_size": 14,
 	"line_padding_bottom": 2,
@@ -15,8 +16,9 @@
 	"auto_complete_commit_on_tab": true,
 	"hardware_acceleration": "opengl",
 	"mini_diff": "auto",
-	"ignored_packages":
-	[
-		"Vintage",
-	],
+	"theme": "Adaptive.sublime-theme",
+
+	// status bar
+	"show_line_endings": true,
+	"show_encoding": true,
 }
