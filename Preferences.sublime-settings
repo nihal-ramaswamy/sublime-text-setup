@@ -7,18 +7,27 @@
 
 	// look and feel
 	"adaptive_dividers": true,
-	"font_face": "Hack",
+	"font_face": "Hack Nerd",
 	"font_size": 14,
 	"line_padding_bottom": 2,
-	"color_scheme": "Monokai.sublime-color-scheme",
+	"color_scheme": "Monokai Classic.sublime-color-scheme",
 
 	// behaviour
 	"auto_complete_commit_on_tab": true,
 	"hardware_acceleration": "opengl",
 	"mini_diff": "auto",
-	"theme": "Adaptive.sublime-theme",
+	"theme": "Monokai Classic.sublime-theme",
 
 	// status bar
 	"show_line_endings": true,
 	"show_encoding": true,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+
+	// Monokai Pro
+	"monokai_pro_highlight_open_folders": true,
+	"monokai_pro_small_scrollbar": true,
+	"monokai_pro_style_title_bar": true,
 }
