@@ -7,7 +7,7 @@
 
 	// look and feel
 	"adaptive_dividers": true,
-	"font_face": "Hack Nerd",
+	"font_face": "Hack Nerd Font",
 	"font_size": 14,
 	"line_padding_bottom": 2,
 	"color_scheme": "Monokai Classic.sublime-color-scheme",
