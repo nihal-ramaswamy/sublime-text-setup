@@ -50,7 +50,7 @@ void dbg_out(Head H, Tail... T) {
     #define dbg(...)
 #endif
 
-void test_case([[maybe_unused]] const int& _tt) {
+void test_case([[maybe_unused]] int _tt) {
     ${0://code;}
 }
 
