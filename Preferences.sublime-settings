@@ -7,8 +7,13 @@
 
 	// look and feel
 	"adaptive_dividers": true,
-	"font_face": "Hack Nerd Font",
+	"font_face": "FiraCode Nerd Font Mono",
 	"font_size": 14,
+	"font_options": [
+		"no_liga",
+		"no_clig",
+		"no_calt"
+	],
 	"line_padding_bottom": 2,
 	"color_scheme": "Nord.sublime-color-scheme",
 
