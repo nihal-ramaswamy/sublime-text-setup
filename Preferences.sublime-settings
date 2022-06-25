@@ -10,13 +10,13 @@
 	"font_face": "Hack Nerd Font",
 	"font_size": 14,
 	"line_padding_bottom": 2,
-	"color_scheme": "Monokai Classic.sublime-color-scheme",
+	"color_scheme": "Nord.sublime-color-scheme",
 
 	// behaviour
 	"auto_complete_commit_on_tab": true,
 	"hardware_acceleration": "opengl",
 	"mini_diff": "auto",
-	"theme": "Monokai Classic.sublime-theme",
+	"theme": "Adaptive.sublime-theme",
 
 	// status bar
 	"show_line_endings": true,
