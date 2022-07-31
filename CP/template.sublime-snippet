@@ -6,6 +6,7 @@
 #include <cassert>
 #include <chrono>
 #include <cmath>
+#include <concepts>
 #include <cstring>
 #include <deque>
 #include <functional>
@@ -15,8 +16,16 @@
 #include <numeric>
 #include <queue>
 #include <random>
+#include <ranges>
 #include <set>
 #include <vector>
+
+#ifdef DEBUG
+    #include "prettyprint.hpp"
+#else
+    #define dmpr(...) return 42;
+#endif
+
 using namespace std;
 using ll = long long;
 
