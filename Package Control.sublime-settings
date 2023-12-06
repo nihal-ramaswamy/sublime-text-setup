@@ -5,9 +5,11 @@
 	],
 	"installed_packages":
 	[
-		"Nord",
+		"LSP",
+		"LSP-clangd",
 		"Package Control",
 		"SideBarEnhancements",
 		"Terminus",
+		"Theme - Monokai Pro",
 	],
 }
